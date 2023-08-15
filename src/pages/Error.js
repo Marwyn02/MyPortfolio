@@ -21,7 +21,7 @@ const Error = () => {
       <div className="grid h-screen place-items-center content-center pb-16">
         <h1 className="text-black text-xl font-light">{title}</h1>
         <p className="text-black/70 text-xs">{message}</p>
-        <Link to="/" className="text-gray-800/50 text-xs underline">
+        <Link to="/" className="text-gray-800/50 mt-2 text-xs underline">
           Go back
         </Link>
       </div>

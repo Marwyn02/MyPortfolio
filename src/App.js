@@ -19,7 +19,7 @@ const App = () => {
           element: (
             <Suspense
               fallback={
-                <p className="text-white text-xs text-center mt-10">
+                <p className="text-white text-xs text-center my-10">
                   Loading...
                 </p>
               }
@@ -35,7 +35,7 @@ const App = () => {
           element: (
             <Suspense
               fallback={
-                <p className="text-white text-xs text-center mt-10">
+                <p className="text-white text-xs text-center my-10">
                   Loading...
                 </p>
               }
