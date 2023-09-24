@@ -4,6 +4,12 @@ const Footer = () => {
   return (
     <>
       <div className="z-20 pt-7 pb-9 lg:py-12 bg-black/90 text-center text-xs md:text-sm">
+        <a
+          href={"https://github.com/Marwyn02"}
+          className="text-white/50 pb-2 font-bold underline hover:text-white"
+        >
+          Github
+        </a>
         <p className="text-white/80 mb-3 md:mb-1.5">
           Designed and developed by:{" "}
           <span className="font-semibold">Marwyn Sumargo</span>
